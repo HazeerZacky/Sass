@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+// SASS Variable Diclaration
+// Colors
+$app-color: #1e9b32;
+
+// Font Family
+$roboto: 'Roboto', sans-serif;
+$nerko-one: 'Nerko One', cursive;
+
+// Font Family
+$font-size: 14px;
+
+// For a debugging perpuse
+/* app-color: #{ $app-color } */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: $font-size;
+}
+
+
+html, body {
+    background-color: $app-color;
+    font-family: $roboto;
+
+}
+
+.welcome-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 40px;
+
+    h4{
+        font-size: 25px;
+    }
+
+    &__description {
+        margin-top: 10px;
+        color: gray;
+        font-family: $nerko-one;
+    }
+
+    &__btn{
+        margin-top: 10px;
+        $app-color: orange;
+        background-color: $app-color;
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: none;
+        color: #fff;
+    }
+}

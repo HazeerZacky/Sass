@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+/* app-color: #1e9b32 */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+html, body {
+  background-color: #1e9b32;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 40px;
+}
+.welcome-card h4 {
+  font-size: 25px;
+}
+.welcome-card__description {
+  margin-top: 10px;
+  color: gray;
+  font-family: "Nerko One", cursive;
+}
+.welcome-card__btn {
+  margin-top: 10px;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
