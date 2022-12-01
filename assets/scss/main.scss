@@ -16,6 +16,14 @@ $font-size: 14px;
 // For a debugging perpuse
 /* app-color: #{ $app-color } */
 
+// Interpolution sample
+.github-bg-img{
+    $profile-pic: "hazeerzacky";
+    background-image: url(https://github.com/#{$profile-pic}.png);
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +36,29 @@ html, body {
     font-family: $roboto;
 
 }
+
+
+// Header
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+    .header__menus{
+        display: flex;
+        list-style-type: none;
+    }
+    .header__link{
+        margin-right: 20px;
+        
+    }
+}
+
+// End Header
+
+
+
 
 .welcome-card {
     background: #fff;
