@@ -16,17 +16,23 @@ html, body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 40px;
 }
-.header .header__menus {
+.header__menus {
   display: flex;
   list-style-type: none;
 }
-.header .header__link {
+.header__link {
   margin-right: 20px;
+  font-size: 14px;
 }
 
 .welcome-card {
